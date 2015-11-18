@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="fonts/font.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <title>OTMEN Arquitectura SLP</title>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="font-family: drawFont; font-size:30px;">OTMEN</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Indice</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="localizacion.html">Localizacion</a></li>
+            <li><a href="#">Quienes somos?</a></li>
+            <li class="active"><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section>
+    <header class="page-header" />
+
+    <h6>Si desea contactar con nosotros, rellene los siguientes campos indicando su duda, contactaremos lo antes posible, muchas gracias. </h6>
+    <form id="contacto" method="post">
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="name"/></td>
+            </tr>
+                <td>Email:</td>
+                <td><input type="email" id="mail"/></td>
+            </tr>
+            </table>
+    Comentarios: <br><textarea id="comentario" maxlength="400" rows="10" cols="60"></textarea><br>
+    <button id="enviar"><p>enviar</p></button>
+    </form>
+
+</section>
+
+</body>
+</html>
