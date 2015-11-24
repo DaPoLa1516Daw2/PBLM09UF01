@@ -5,6 +5,7 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="fonts/font.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/complementario.css">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
@@ -32,26 +33,32 @@
     </div>
 </nav>
 
-<section>
-    <header class="page-header" />
-
-    <h6>Si desea contactar con nosotros, rellene los siguientes campos indicando su duda, contactaremos lo antes posible, muchas gracias. </h6>
+<section class="contenido">
+    <header class="page-header">
+        <h4>Si desea contactar con nosotros, rellene los siguientes campos indicando su duda, contactaremos lo antes posible, muchas gracias.</h4>
+    </header>
     <form id="contacto" method="post">
         <table>
             <tr>
+
                 <td>Nombre:</td>
                 <td><input type="text" id="name"/></td>
+
             </tr>
+            <tr>
                 <td>Email:</td>
                 <td><input type="email" id="mail"/></td>
             </tr>
             </table>
     Comentarios: <br><textarea id="comentario" maxlength="400" rows="10" cols="60"></textarea><br>
-        <button id="limpiar"><p>borrar</p></button>
-        <button id="enviar"><p>enviar</p></button>
+        <button id="enviar" class="btn btn-default">Enviar</button>
+        <button id="limpiar" class="btn btn-default">Limpiar</button>
     </form>
 
 </section>
+<footer>
+    Info
+</footer>
 
 </body>
 </html>
