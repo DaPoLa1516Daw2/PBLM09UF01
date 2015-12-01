@@ -13,6 +13,7 @@ footer{
     font-size: 20px;
     border-bottom: 1px #e7e7e7 solid;
     border-top: 1px #e7e7e7 solid;
+    background-color: #45c0ed;
 
     #position: absolute;
 }
@@ -41,8 +42,10 @@ td{
     color: #FFFFFF;
     background-color: #039AD0;
 }
-.navbar{
+#carousel-example-generic{
 
-
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
 
 }
